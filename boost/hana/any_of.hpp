@@ -28,7 +28,7 @@ Distributed under the Boost Software License, Version 1.0.
 #include <boost/hana/is_empty.hpp>
 #include <boost/hana/length.hpp>
 
-#include <cstddef>
+
 
 
 BOOST_HANA_NAMESPACE_BEGIN

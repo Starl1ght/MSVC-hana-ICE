@@ -107,8 +107,8 @@ namespace _hana {
 
 BOOST_HANA_NAMESPACE_BEGIN
     namespace detail {
-        using ::_hana::ebo;
-        using ::_hana::ebo_get;
+        using ::go4::_hana::ebo;
+        using ::go4::_hana::ebo_get;
     }
 BOOST_HANA_NAMESPACE_END
 

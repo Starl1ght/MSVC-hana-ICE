@@ -27,9 +27,7 @@ Distributed under the Boost Software License, Version 1.0.
 #include <boost/hana/fwd/transform.hpp>
 #include <boost/hana/fwd/unpack.hpp>
 
-#include <cstddef>
-#include <type_traits>
-#include <utility>
+
 
 
 BOOST_HANA_NAMESPACE_BEGIN
@@ -193,7 +191,7 @@ BOOST_HANA_NAMESPACE_BEGIN
         static constexpr auto apply(Xs&& xs, N const&) {
             constexpr std::size_t len = detail::decay<Xs>::type::size_;
             return drop_front_helper<N::value>(static_cast<Xs&&>(xs), std::make_index_sequence<
-                N::value < len ? len - N::value : 0
+                (N::value < len) ? len - N::value : 0
             >{});
         }
     };

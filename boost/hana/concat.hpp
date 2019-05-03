@@ -20,10 +20,6 @@ Distributed under the Boost Software License, Version 1.0.
 #include <boost/hana/core/make.hpp>
 #include <boost/hana/length.hpp>
 
-#include <cstddef>
-#include <type_traits>
-#include <utility>
-
 
 BOOST_HANA_NAMESPACE_BEGIN
     //! @cond

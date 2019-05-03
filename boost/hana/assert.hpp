@@ -16,8 +16,7 @@ Distributed under the Boost Software License, Version 1.0.
 #include <boost/hana/if.hpp>
 #include <boost/hana/value.hpp>
 
-#include <cstdio>
-#include <cstdlib>
+
 
 
 #if defined(BOOST_HANA_DOXYGEN_INVOKED)

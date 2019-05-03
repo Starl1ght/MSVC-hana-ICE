@@ -256,7 +256,7 @@ BOOST_HANA_NAMESPACE_BEGIN
         static constexpr auto apply(Xs&& xs, N const&) {
             constexpr std::size_t len = decltype(hana::length(xs))::value;
             return helper<N::value>(static_cast<Xs&&>(xs), std::make_index_sequence<
-                N::value < len ? len - N::value : 0
+                (N::value < len) ? len - N::value : 0
             >{});
         }
     };

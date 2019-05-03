@@ -84,7 +84,6 @@ Distributed under the Boost Software License, Version 1.0.
 
 // We include this header, which normally defines the proper detection macros.
 // At least, libc++ and libstdc++ do.
-#include <cstddef>
 
 #if defined(_LIBCPP_VERSION)
 

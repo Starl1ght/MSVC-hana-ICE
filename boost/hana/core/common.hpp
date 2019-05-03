@@ -19,8 +19,6 @@ Distributed under the Boost Software License, Version 1.0.
 #include <boost/hana/detail/std_common_type.hpp>
 #include <boost/hana/detail/void_t.hpp>
 
-#include <type_traits>
-
 
 BOOST_HANA_NAMESPACE_BEGIN
     //////////////////////////////////////////////////////////////////////////
