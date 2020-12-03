@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T18:23:06.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400" version="13.10.7" etag="S2XCQL1mDeFFdgMqNvN7" type="github"><diagram id="sc_302wcADBC_bfZMvun">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-03T18:40:52.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400" etag="X3k58nDILMtr1iNxhbgE" version="13.10.7" type="github">
+  <diagram id="sc_302wcADBC_bfZMvun" name="Page-1">
+    <mxGraphModel dx="1406" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-7" value="Rate is 0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-4" target="gGQmAezXYTBoV_PQ5VVx-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="210" />
+              <mxPoint x="410" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-9" value="Rate is not 0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-4" target="gGQmAezXYTBoV_PQ5VVx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-4" value="&lt;b&gt;Rate&lt;/b&gt;&amp;nbsp;!= 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-6" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-19" value="The cache is found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-8" target="gGQmAezXYTBoV_PQ5VVx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-8" value="Shader cache for &lt;b&gt;scProcessName&lt;/b&gt; exists" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-10" value="No such cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="533" y="340" />
+              <mxPoint x="533" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-11" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-21" value="Has misses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-14" target="gGQmAezXYTBoV_PQ5VVx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-14" value="Shader cache for &lt;b&gt;scProcessName &lt;/b&gt;&lt;br&gt;has misses" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-15" value="No misses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="475" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="533" y="475" />
+              <mxPoint x="533" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-16" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-20" value="Random from 1 to &lt;b&gt;Rate&lt;/b&gt; == &lt;b&gt;Rate&lt;/b&gt;&lt;br&gt;&amp;nbsp;(1\Rate chance to success)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-22" value="Chance roll lost" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="605" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="533" y="605" />
+              <mxPoint x="533" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-23" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-25" value="Chance roll won" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-26" value="S3\&amp;lt;CMSID&amp;gt;\.unlocked file is present&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-27" value="The file is missing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="533" y="730" />
+              <mxPoint x="533" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-28" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-29" value="The file is found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gGQmAezXYTBoV_PQ5VVx-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-34" value="The file is found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-30" target="gGQmAezXYTBoV_PQ5VVx-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-35" value="User didn&#39;t upload a cache before" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGQmAezXYTBoV_PQ5VVx-30" target="gGQmAezXYTBoV_PQ5VVx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-30" value="User didn&#39;t upload a cache previously&lt;br&gt;S3\&amp;lt;CMSID&amp;gt;\&amp;lt;DRIVER&amp;gt;\&amp;lt;USERID_HASH&amp;gt;.zip&lt;br&gt;is not present" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-32" value="Skip upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGQmAezXYTBoV_PQ5VVx-33" value="Upload to S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
